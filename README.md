@@ -1,2 +1,0 @@
-# Mechanical-Characterization-of-Asbestos-free-Nanocomposites-using-ML-Optimization
-The machine learning models (Random Forest, Linear Regression, Logistic Regression) to optimize asbestos-free polymer nanocomposites. Analyze key features affecting tensile and compression strength. Identify crucial factors and suggest optimal compositions, integrating material science insights for iterative improvement and clear documentation.
