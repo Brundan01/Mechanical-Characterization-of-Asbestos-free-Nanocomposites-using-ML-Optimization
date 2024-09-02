@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    ::selection {
+      color: #000;
+      background: #fff;
+    }
+    nav {
+      position: fixed;
+      background: #1b1b1b;
+      width: 100%;
+      padding: 10px 0;
+      z-index: 12;
+    }
+    nav .menu {
+      max-width: 1250px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    .img {
+      background: url("https://assets.lummi.ai/assets/QmXQUaxA6NjNHFeTunk6SFmj6LzYr1qA4FgkYXgnaT4JE8?auto=format&w=1500") no-repeat;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .img::before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+    }
+    .center {
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .title {
+      text-transform: uppercase;
+      font-size: 80px;
+      font-family: Verdana, Geneva, sans-serif;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #919191,
+                  1px 2px 1px #919191,
+                  1px 3px 1px #919191,
+                  1px 4px 1px #919191,
+                  1px 5px 1px #919191,
+                  1px 6px 1px #919191,
+                  1px 7px 1px #919191,
+                  1px 8px 1px #919191,
+                  1px 9px 1px #919191,
+                  1px 10px 1px #919191,
+                  1px 18px 6px rgba(16,16,16,0.4),
+                  1px 22px 10px rgba(16,16,16,0.2),
+                  1px 25px 35px rgba(16,16,16,0.2),
+                  1px 30px 60px rgba(16,16,16,0.4);
+      white-space: nowrap;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+
+            h1 {
+            text-align: center;
+            margin-bottom: 20px; /* Adjust this value to reduce the space */
+        }
+
+    .logo1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            padding: 10px;
+        }
+
+
+        .button-19 {
+  appearance: button;
+  background-color: #151c1f;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #444546;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+
+  </style>
+  <body>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+            <a href="#"><img src="https://cdn-icons-png.freepik.com/512/3583/3583054.png" alt="brake logo" class="logo1"></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="img"></div>
+        <div class="center">
+            <h1 class="title">Mech-Nano Optimization </h1>
+
+            <div>
+              <a href="/home"><button id="loadButton" class="button-19" role="button">Get Started</button></a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
